@@ -4,4 +4,4 @@ function sayHelloWorld(){
     return `${hello}`;
 }
 
-sayHelloWorld()
+console.log(sayHelloWorld())

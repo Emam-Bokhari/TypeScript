@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../tupleDataType/index.ts"],"names":[],"mappings":"AACA,MAAM,UAAU,GAAqB,CAAC,GAAG,EAAE,OAAO,CAAC,CAAC;AACpD,OAAO,CAAC,GAAG,CAAC,UAAU,CAAC,CAAC"}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/tupleDataType/index.ts"],"names":[],"mappings":"AACA,MAAM,UAAU,GAAqB,CAAC,GAAG,EAAE,OAAO,CAAC,CAAC;AACpD,OAAO,CAAC,GAAG,CAAC,UAAU,CAAC,CAAC"}

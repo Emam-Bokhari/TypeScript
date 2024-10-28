@@ -1,1 +1,1 @@
-{"version":3,"file":"hellow-world.js","sourceRoot":"","sources":["../hellow-world.ts"],"names":[],"mappings":"AAAA,MAAM,KAAK,GAAC,OAAO,CAAC;AAEpB,SAAS,aAAa;IAClB,OAAO,GAAG,KAAK,EAAE,CAAC;AACtB,CAAC;AAED,aAAa,EAAE,CAAA"}
+{"version":3,"file":"hellow-world.js","sourceRoot":"","sources":["../src/hellow-world.ts"],"names":[],"mappings":"AAAA,MAAM,KAAK,GAAC,OAAO,CAAC;AAEpB,SAAS,aAAa;IAClB,OAAO,GAAG,KAAK,EAAE,CAAC;AACtB,CAAC;AAED,OAAO,CAAC,GAAG,CAAC,aAAa,EAAE,CAAC,CAAA"}
