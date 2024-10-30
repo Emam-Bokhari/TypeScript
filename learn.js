@@ -17,5 +17,7 @@ fnm use 22.11.0
 # typescript ar configuration file ar jonno
 tsc --init
 
+# typescript version change
+1. config file theke target a amra amader echhe onojai e version dite pari
 
 */

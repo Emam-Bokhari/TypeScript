@@ -1,6 +1,6 @@
-const hello = "Hello";
+"use strict";
+var hello = "Hello";
 function sayHelloWorld() {
-    return `${hello}`;
+    return "".concat(hello);
 }
 console.log(sayHelloWorld());
-//# sourceMappingURL=hellow-world.js.map

@@ -1,3 +1,4 @@
-const fruitsData = [101, "Mango"];
+"use strict";
+//  mixed data (key,value)
+var fruitsData = [101, "Mango"];
 console.log(fruitsData);
-//# sourceMappingURL=index.js.map
