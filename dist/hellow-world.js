@@ -1,6 +1,6 @@
 "use strict";
-var hello = "Hello";
+const hello = "Hello";
 function sayHelloWorld() {
-    return "".concat(hello);
+    return `${hello}`;
 }
 console.log(sayHelloWorld());

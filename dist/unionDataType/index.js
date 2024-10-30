@@ -3,7 +3,7 @@
 // amra chaile union a parenthesis use korte pari abar chaile parenthesis chara o use korte pari
 // const userId: (number | string) = 211;
 // console.log(userId);
-var activeStatus = true;
+const activeStatus = true;
 console.log(activeStatus);
 function displayUserInfo(userId) {
     console.log(userId);
