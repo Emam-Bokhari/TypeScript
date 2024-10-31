@@ -1,6 +1,8 @@
 "use strict";
-const hello = "Hello";
-function sayHelloWorld() {
-    return `${hello}`;
+{
+    const hello = "Hello";
+    function sayHelloWorld() {
+        return `${hello}`;
+    }
+    console.log(sayHelloWorld());
 }
-console.log(sayHelloWorld());

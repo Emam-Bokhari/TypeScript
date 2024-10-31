@@ -20,4 +20,12 @@ tsc --init
 # typescript version change
 1. config file theke target a amra amader echhe onojai e version dite pari
 
+# 
+1.primitive data type (string,number,boolean,null,undefined)
+2.nonprimitive data type (array,object,tuple)
+3. any data type
+4. object optional, readonly, literal types
+5. function, arrow function, method, map array
+
+
 */

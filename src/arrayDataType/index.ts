@@ -1,4 +1,5 @@
-const userNames: string[] = ["Ashikur Rahman", "Emam Bokhari", "Imtiaz Hossain Akib", "Adnan"];
+{
+    const userNames: string[] = ["Ashikur Rahman", "Emam Bokhari", "Imtiaz Hossain Akib", "Adnan"];
 console.log(userNames)
 
 const userIds: number[] = [0, 1, 2, 3];
@@ -27,3 +28,4 @@ console.log(flowersPrice);
 //  union ta amra chaile onno vabe o use korte pari
 const fishPrices: (string | number)[] = [220, 200, 150];
 console.log(fishPrices);
+}

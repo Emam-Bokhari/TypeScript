@@ -1,37 +1,40 @@
-// function, arrow function, map, method
+{
 
-// normal function 
-function addition(x: number, y: number = 0): number {
-    return x + y;
-};
+    // function, arrow function, map, method
 
-addition(2, 5);
+    // normal function 
+    function addition(x: number, y: number = 0): number {
+        return x + y;
+    };
 
-// arrow function
-const substraction = (x: number, y: number): number => {
-    return x - y;
-};
+    addition(2, 5);
 
-substraction(33, 21);
+    // arrow function
+    const substraction = (x: number, y: number): number => {
+        return x - y;
+    };
 
-// method
-const poorUser: {
-    name: string,
-    age: number,
-    balance: number,
-    addBalance: (newBalance: number) => number,
-} = {
-    name: "Emam Bokhari",
-    age: 24,
-    balance: 0,
-    addBalance(newBalance: number): number {
-        return this.balance + newBalance;
-    },
-};
+    substraction(33, 21);
 
-// map
-const itemsOfFlower:number[]=[2,4,9];
+    // method
+    const poorUser: {
+        name: string,
+        age: number,
+        balance: number,
+        addBalance: (newBalance: number) => number,
+    } = {
+        name: "Emam Bokhari",
+        age: 24,
+        balance: 0,
+        addBalance(newBalance: number): number {
+            return this.balance + newBalance;
+        },
+    };
 
-const newItemsOfFlower:number[]=itemsOfFlower.map((item:number):number=>item*2);
+    // map
+    const itemsOfFlower: number[] = [2, 4, 9];
 
-console.log(newItemsOfFlower)
+    const newItemsOfFlower: number[] = itemsOfFlower.map((item: number): number => item * 2);
+
+    console.log(newItemsOfFlower)
+}
