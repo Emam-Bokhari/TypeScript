@@ -1,5 +1,5 @@
 {
-    // spread, rest, destructure
+    // spread, rest
 
     // spread
     const users: string[] = ["Abdullah", "Abdul Jobbar", "Abdus Sattar"];
@@ -50,7 +50,22 @@
     console.log(allMentors);
 
     // rest operator
-    
+    function friends(name1: string, name2: string, name3: string, ...otherNames: string[]) {
+        console.log(name1, name2, name3);
+        const otherFriendNames = otherNames.map((friendName) => {
+            return friendName;
+        });
+        console.log(otherFriendNames); // output array of string
+        console.log(otherNames.join(",")) // output string
+    }
+    friends("Abul", "Babul", "Kabul", "Fabul");
+
+    function animalsList(...animal: string[]) {
+        console.log(animal);
+        console.log(animal.join(" "));
+        animal.forEach((item:string)=>console.log(item));  
+    }
+    animalsList("Cat", "Fox", "Wolf");
 
 
 }
