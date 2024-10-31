@@ -34,5 +34,11 @@ const userInfo: {
 
 }
 
-const { id, name: { firstName }, address: { contact: { phone } } } = userInfo;
-console.log(id, firstName, phone);
+const { id, name: { firstName }, address: { contact: { phone: phoneNumber } } } = userInfo;
+console.log(id, firstName, phoneNumber);
+
+const fruitsList: string[] = ["Apple", "Red Apple (Constantinopole)", "Banana", "Mango", "Jackfruit"];
+
+const [, Constantinopole, , ...otherFruits] = fruitsList;
+console.log(Constantinopole, otherFruits);
+console.log(otherFruits.join(" "));
