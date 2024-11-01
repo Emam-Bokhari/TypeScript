@@ -5,31 +5,40 @@
     const info: {
         id: number;
         name: string;
+        age: number;
         address: {
             district: string;
             contact: {
                 phone: string;
+                email?: string;
             }
         }
     } = {
         id: 2111,
-        name: "Emam Bokhari",
+        name: "Moshfiqur Rahman",
+        age: 24,
         address: {
             district: "Brahmanbaria",
             contact: {
-                phone: "01700000000",
-            },
-        },
+                phone: "01915842073"
+            }
+        }
     }
 
-    const { address: { district: homeDistrict, contact: { phone } } } = info;
-    console.log(phone, homeDistrict);
+    // updated info
+    const updatedInfo = {
+        ...info,
+        name: "Emam Bokhari",
+        address: {
+            ...info.address,
+            contact: {
+                ...info.address.contact,
+                email: "studentemam@gmail.com"
+            }
+        }
+    }
 
-    // array spread
-    const items: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10];
-
-    const [, , , , five] = items;
-    console.log(five)
+    console.log(info,updatedInfo)
 
     // rest
     function subjectMarks(biology: number, physics: number, math: number, ...others: number[]) {
