@@ -1,4 +1,6 @@
 {
+    // primitive,non primitive data types
+
     // # primitive data type
 
     // string
