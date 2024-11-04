@@ -1,5 +1,5 @@
 {
-    // interface, alis, intersection
+    // interface, alias, inteonrsection
 
     // type alias
     type User1 = {
