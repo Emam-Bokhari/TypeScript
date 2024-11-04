@@ -38,5 +38,4 @@
 
     const fruitsList: Fruit = ["Apple", "Banana", "Mango"]
 
-
 }
