@@ -3,7 +3,7 @@
 
     class BankAccount {
         readonly id: number;
-        name: string;
+        public name: string;
         private _balance: number;
 
         constructor(id: number, name: string, balance: number) {
