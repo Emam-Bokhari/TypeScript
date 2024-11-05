@@ -1,6 +1,7 @@
 {
     // promise
 
+    
     const createPromise = (): Promise<string> => {
         return new Promise<string>((resolve, reject) => {
             const data: string = "Something..."
