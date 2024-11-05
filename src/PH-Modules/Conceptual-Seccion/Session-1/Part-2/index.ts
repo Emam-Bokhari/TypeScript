@@ -42,7 +42,10 @@
 
     const fullListOfAnimal: string[] = [...animalList, "Monkey"];
 
+    // ternary operator
 
+    const isAdmin: boolean = false;
+    const message: string = isAdmin ? "Welcome to Admin Dashboard." : "No Dashboard";
 
 
 
