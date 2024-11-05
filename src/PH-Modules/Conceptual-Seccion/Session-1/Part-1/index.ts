@@ -33,6 +33,16 @@
 
     const userNameAndAge: [string, number, string, number] = ["Moshfiqur Rahman", 24, "Imtiaz Hossain Akib", 21];
 
-    
+    const division = (x: number, y: number): number => {
+        return x / y;
+    }
+
+    const result: number = division(22, 11);
+
+    function addition(x: number, y: number): number {
+        return x + y;
+    }
+
+    const resultAddition: number = addition(11, 13);
 
 }
