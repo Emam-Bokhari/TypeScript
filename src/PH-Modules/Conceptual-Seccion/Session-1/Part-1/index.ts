@@ -45,4 +45,11 @@
 
     const resultAddition: number = addition(11, 13);
 
+    // type
+    type Person = {
+        id: number;
+        name: string;
+        age: number;
+    }
+
 }
