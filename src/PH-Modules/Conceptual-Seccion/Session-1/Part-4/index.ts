@@ -1,5 +1,5 @@
 {
-    // generics (function)
+    // generics (function), constraints
 
     const showMessage = <T>(message: T): T => {
         return message;
@@ -17,4 +17,13 @@
 
     console.log(show<number, number>(1, 3));
     console.log(show<string, string>("Hello", "World!"));
+
+    // constraints
+    function getLength<T extends { length: number }>(str: T) {
+        return str.length;
+    }
+
+    const result: number = getLength<string>("Hellow World!");
+
+    console.log(result)
 }
