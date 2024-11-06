@@ -48,11 +48,14 @@
     const message: string = isAdmin ? "Welcome to Admin Dashboard." : "No Dashboard";
 
     // optional chaining
-    const data={
-        id:2400,
-        name:"Moshfiqur Rahman",
+    const data: {
+        id: number;
+        name: string;
+    } = {
+        id: 2400,
+        name: "Moshfiqur Rahman",
     }
-    console.log(data?.name?.address);
+    // console.log(data?.name?.address);
 
 
 
